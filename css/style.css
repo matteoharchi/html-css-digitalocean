@@ -96,7 +96,7 @@ button.ms_signup {
 /* CLIENTS */
 .ms_clients {
     background-color: #f3f5f9;
-    height: 200px;
+
 }
 .ms_client_logo {
     height: 50px;
@@ -170,7 +170,24 @@ button.ms_signup {
 }
 /* FEATURES */
 
-
+@media all and (max-width: 767px) {
+    .ms_arrow {
+      display: none;
+    }
+    .ms_item_list{
+      font-size: 10px;
+      border-left:none;
+      border-bottom: 2px solid #cccccc;
+      margin-bottom: 10px;
+    }
+    .ms_element {
+      text-align: center;
+    }
+    .ms_feature {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+}
 @media all and (max-width:991px) {
     .navbar-nav{
         display: none;
