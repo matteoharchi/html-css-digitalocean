@@ -1,0 +1,199 @@
+
+/* NAVBAR GENERALE */
+.navbar-default {
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    background-color: white;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    height: 70px;
+}
+/* NAVBAR MOBILE */
+.glyphicon-menu-hamburger {
+    color: #3a8aff;
+    font-size: 25px;
+}
+.ms_mobile {
+    display: none;
+}
+/* NAVBAR DESKTOP */
+.ms_logo_desktop {
+    display: block;
+    vertical-align: middle;
+}
+a.ms_nav_link{
+    vertical-align: middle;
+    height: 70px;
+    font-size: 15px;
+    color: black;
+}
+button.ms_signup {
+    color: #006aff;
+    border: 1px solid #006aff;
+    background-color: white;
+}
+/* BANNER */
+.ms_banner .container{
+    background-image: url("https://web.archive.org/web/20200205061938im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    margin-top: 0;
+}
+.ms_jumbotron {
+    background: none;
+    color: white;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.ms_jumbotron h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.ms_login_box {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.ms_login_box h3 {
+    font-weight: 600;
+}
+.ms_blue_title {
+    color: #006aff;
+}
+.ms_email_form,
+.ms_password-form {
+    line-height: 35px;
+    margin-top: 10px;
+}
+.ms_login_box button{
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 30px;
+}
+.ms_create_account{
+    background-color: #579aff;
+    color: white;
+    border: none;
+}
+.ms_google_account {
+    background-color: white;
+    color: #858585;
+}
+.fa-google {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: bottom;
+}
+.ms_little_text {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+/* CLIENTS */
+.ms_clients {
+    background-color: #f3f5f9;
+    height: 200px;
+}
+.ms_client_logo {
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ms_client_logo img{
+    width: 100%;
+    height: 100%;
+}
+.ms_clients_title {
+    color: #6f7b97;
+    margin-top: 30px;
+}
+.ms_customer_stories a {
+    color: #006aff;
+}
+/* DEPLOY */
+.ms_deploy_designed_section_title h3{
+    font-size: 35px;
+    margin-top: 40px;
+}
+.ms_deploy_designed_section_title p{
+    font-size: 20px;
+}
+.ms_pages_menu {
+    margin-top: 40px;
+}
+.ms_elements.row{
+    margin-top: 40px;
+}
+.ms_item_list {
+    border-left: 2px solid #cccccc;
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 40px;
+    color: #75809a;
+}
+.ms_element{
+    margin-bottom: 60px;
+}
+.ms_element p{
+    font-size: 15px;
+}
+/* DESIGNED FOR DEVELOPERS */
+.ms_developers .container{
+    background-color: #f3f5f9;
+}
+.ms_developer_title{
+    margin-top: 40px;
+}
+.ms_arrow {
+    position: relative;
+    height: 240px;
+}
+.ms_arrow i {
+    position: absolute;
+    top: 50%;
+}
+.fa-arrow-right {
+    left: 0;
+}
+.fa-arrow-left {
+    right: 0;
+}
+.ms_screenshot_container p {
+    color: #031c4e;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+@media all and (max-width:991px) {
+    .navbar-nav{
+        display: none;
+    }
+    .navbar-form {
+        display: none;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .ms_mobile {
+        display: block;
+    }
+    .ms_logo_desktop {
+        display: none;
+    }
+}
+@media all and (min-width: 992px) {
+    .ms_jumbotron h1 {
+        font-size: 60px;
+    }
+    .ms_jumbotron p {
+        font-size: 25px;
+    }
+    .ms_client_logo {
+        height: 70px;
+    }
+}

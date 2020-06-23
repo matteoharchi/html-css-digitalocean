@@ -11,22 +11,95 @@
     <body>
         <!-- HEADER -->
         <header>
-            <nav>
+            <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- MENU MOBILE -->
+                    <div class="navbar-header ms_mobile col-sm-12">
+                      <span class="glyphicon glyphicon-menu-hamburger col-xs-offset-3 col-sm-offset-4" aria-hidden="true"></span>
+                      <a class="navbar-brand" href="#"><img class="col-xs-6 col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                    </div>
+                    <!-- DESKTOP -->
+                    <div class="ms_logo_desktop">
+                        <a class="navbar-brand" href="#"><img class="col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                    </div>
 
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a class="ms_nav_link" href="#">Products</a></li>
+                            <li><a class="ms_nav_link" href="#">Customers</a></li>
+                            <li><a class="ms_nav_link" href="#">Community</a></li>
+                            <li><a class="ms_nav_link" href="#">Pricing</a></li>
+                        </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Docs</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Login</a></li>
+                        <li>Sign Up</li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
             </nav>
         </header>
         <!-- BANNER -->
         <section class="ms_banner">
-            <div class="container">
-                <div class="jumbotron col-sm-6">
+            <div class="container col-sm-12">
+                <div class="ms_jumbotron col-sm-offset-0 col-sm-7 col-md-5 col-md-offset-2">
+                    <h1>The simplest cloud platform for developers & teams</h1>
+                    <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and buisnesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
-                <div class="ms_login_section col-sm-6">
+                <div class="ms_login col-sm-5">
+                    <div class="ms_login_box col-sm-12 col-md-6">
+                        <h3 class="text-center">Deploy your app in seconds.</h3>
+                        <h3 class="text-center ms_blue_title">Get started now.</h3>
+                        <input class="ms_email_form col-sm-12" type="email" name="email" placeholder="Email">
+                        <input class="ms_password-form col-sm-12"type="password" name="text" placeholder="Password">
+                        <button class="ms_create_account col-sm-12"type="button" name="create_account">Create your account</button>
+                        <button class="ms_google_account text-center col-sm-12"type="button" name="create_account"><i class="fab fa-google col-sm-1"></i> Sign up with Google</button>
+                        <p class=" ms_little_text text-center col-sm-12">By signing up you agree to the <a href="#">Terms of Service</a>.</p>
+
+                    </div>
+
                 </div>
             </div>
         </section>
         <!-- CLIENTS -->
         <section class="ms_clients col-sm-12">
             <div class="container">
+                <h4 class="col-sm-12 text-center text-uppercase ms_clients_title">innovative businesses trust digitalocean</h4>
+                <div class="row col-ms-10 col-md-12 col-lg-12">
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="docker">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg?auto=compress,format" alt="gitlab">
+
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg?auto=compress,format" alt="slack">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="hashicorp">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/01ff74d1-79dd-4f18-888f-4a93a976e61d_wework-be6eab32.svg?auto=compress,format" alt="wework">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 ms_client_logo">
+                        <img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="splunk">
+                    </div>
+                    <p class="text-center ms_customer_stories"><a href="#">View customer stories ></a></p>
+
+                </div>
 
             </div>
 
@@ -34,10 +107,50 @@
         <!-- DEPLOY -->
         <section class="ms_deploy">
             <div class="container">
+                <div class="col-sm-12 text-center ms_deploy_designed_section_title">
+                    <h3>Deploy and scale seamlessly</h3>
+                    <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                </div>
                 <aside class="ms_pages_menu col-sm-4">
+                    <ul>
+                        <li class="ms_item_list">Deploy</li>
+                        <li class="ms_item_list">Manage</li>
+                        <li class="ms_item_list">Secure</li>
+                        <li class="ms_item_list">Scale</li>
+                        <li class="ms_item_list">Monitor</li>
+                    </ul>
 
                 </aside>
-                <div class="row col-sm-8">
+                <div class="row ms_elements col-sm-8">
+                    <div class="ms_element col-sm-6">
+                        <div class="ms_element_icon">
+                            <img src="https://images.prismic.io/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg?auto=compress,format" alt="cluster_icon">
+                        </div>
+                        <h4>Cluster deployements</h4>
+                        <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                    </div>
+                    <div class="ms_element col-sm-6">
+                        <div class="ms_element_icon">
+                            <img src="https://images.prismic.io/www-static/9d343e9c-fe74-4979-8ad9-e8efc58d6ee7_dropletinboxicon.svg?auto=compress,format" alt="cluster_icon">
+                        </div>
+                        <h4>Optimized compute types</h4>
+                        <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                    </div>
+                    <div class="ms_element col-sm-6">
+                        <div class="ms_element_icon">
+                            <img src="https://images.prismic.io/www-static/936bb585-99ba-460d-ae2f-7bbdae8896cc_stacksplusicon.svg?auto=compress,format" alt="cluster_icon">
+                        </div>
+                        <h4>One-click apps</h4>
+                        <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, docker; and more.</p>
+
+                    </div>
+                    <div class="ms_element col-sm-6">
+                        <div class="ms_element_icon">
+                            <img src="https://images.prismic.io/www-static/0eee6655-dfce-46b2-ab48-f40ff27d8a73_globeicon.svg?auto=compress,format" alt="cluster_icon">
+                        </div>
+                        <h4>Global availability</h4>
+                        <p>Deploy to any of our data center regions around the world.</p>
+                    </div>
 
                 </div>
 
@@ -47,10 +160,23 @@
         <!-- DESIGNED FOR DEVELOPERS -->
         <section class="ms_developers">
             <div class="container">
-                <div class="row col-sm-12">
+                <div class="row ms_developer_title col-sm-12">
+                    <div class="col-sm-12 text-center ms_deploy_designed_section_title">
+                        <h3>Designed for developers</h3>
+                        <p>Build more and spend less time  managing your infrastructure with our easy-to-use control panel and API.</p>
+                    </div>
                 </div>
-                <div class="row col-sm-12">
+                <div class="row ms_screenshot_container col-sm-12">
+                    <div class="col-sm-2 ms_arrow">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <img class="ms_screenshot screenshot col-sm-8" src="https://images.prismic.io/www-static/ba01040c-a47a-43c9-995d-4ed05a5dc4c9_screenshot-create-kubernetes-cluster-4a930955.jpg?auto=compress,format" alt="screenshot">
+                    <div class="col-sm-2 ms_arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <p class="col-sm-12 text-center">Create compute servers in 55 seconds or less.</p>
                 </div>
+
             </div>
         </section>
         <!-- FEATURES -->
