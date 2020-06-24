@@ -139,7 +139,7 @@ button.ms_signup {
     margin-bottom: 60px;
 }
 .ms_element p{
-    font-size: 15px;
+    font-size: 10px;
 }
 /* DESIGNED FOR DEVELOPERS */
 .ms_developers .container{
@@ -150,7 +150,7 @@ button.ms_signup {
 }
 .ms_arrow {
     position: relative;
-    height: 240px;
+    height: 200px;
 }
 .ms_arrow i {
     position: absolute;
@@ -164,12 +164,68 @@ button.ms_signup {
 }
 .ms_screenshot_container p {
     color: #031c4e;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
     font-weight: 600;
 }
 /* FEATURES */
-
+.ms_feature {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+/* BLUE */
+.ms_blue {
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+.ms_city {
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ms_test_speed {
+    padding: 0px;
+}
+.ms_city_row {
+    margin-bottom: 30px;
+}
+.ms_city_row div:last-child {
+    border: none;
+}
+/* DEVELOPMENT */
+.ms_development .container {
+    background-color: #f3f5f9;
+}
+.ms_rockerbox_title{
+    margin-bottom: 30px;
+}
+.ms_rockerbox_title h3 {
+    margin-top: 0px;
+}
+.ms_rockerbox {
+    background-color: white;
+}
+.ms_rockerbox_logo {
+    padding-top: 10px;
+}
+p.ms_rockerbox_text {
+    color: #5c6a88;
+    margin-bottom: 2px;
+}
+p.ms_rockerbox_quote {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+p.ms_rockerbox_role {
+    font-size: 10px;
+    margin-top: 0px;
+}
+.ms_rockerbox_read_story {
+    margin-bottom: 20px;
+}
 @media all and (max-width: 767px) {
     .ms_arrow {
       display: none;
