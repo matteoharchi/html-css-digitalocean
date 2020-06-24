@@ -172,6 +172,9 @@ button.ms_signup {
     font-size: 10px;
     margin-bottom: 30px;
 }
+.ms_feature p {
+    color:#5c6a88;
+}
 /* BLUE MAP */
 .ms_blue {
     background-image: url("https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format");
@@ -286,6 +289,10 @@ footer {
 }
 
 @media all and (max-width: 767px) {
+    .navbar-header {
+        line-height: 70px;
+        vertical-align: middle;
+    }
     .ms_arrow {
       display: none;
     }
@@ -302,8 +309,24 @@ footer {
       text-align: center;
       margin-bottom: 40px;
     }
+    .ms_login_box {
+        margin-top: 10px;
+    }
+    .ms_blue {
+        font-size: 10px;
+    }
+    .ms_city_row {
+        margin-top: 30px;
+    }
+    .ms_city_prefix {
+        padding-left: 0px;
+    }
+    ul.ms_list {
+        padding-left: 0px;
+    }
 }
 @media all and (max-width:991px) {
+
     .navbar-nav{
         display: none;
     }
@@ -315,19 +338,45 @@ footer {
     }
     .ms_mobile {
         display: block;
+        position: relative;
+        padding: 0px;
     }
     .ms_logo_desktop {
         display: none;
     }
+    .navbar-brand {
+        padding: 0px;
+        position:absolute;
+        top: 20px;
+        right: 15px;
+    }
 }
 @media all and (min-width: 992px) {
     .ms_jumbotron h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .ms_jumbotron p {
         font-size: 25px;
     }
+    .ms_clients_title {
+        font-size: 15px;
+    }
     .ms_client_logo {
-        height: 70px;
+        margin-top: 10px;
+    }
+    .ms_pages_menu ul li{
+        font-size: 20px;
+    }
+    .ms_feature {
+        font-size: 12px;
+    }
+    .ms_deploy_designed_section_title h3 {
+        font-size: 26px;
+    }
+    .ms_deploy_designed_section_title p {
+        font-size: 18px;
+    }
+    .ms_list {
+        margin-top: 30px;
     }
 }
