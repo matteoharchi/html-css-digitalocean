@@ -99,7 +99,7 @@ button.ms_signup {
 
 }
 .ms_client_logo {
-    height: 50px;
+    height: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -115,9 +115,11 @@ button.ms_signup {
     color: #006aff;
 }
 /* DEPLOY */
+.ms_deploy_designed_section_title {
+    margin-top: 20px;
+}
 .ms_deploy_designed_section_title h3{
     font-size: 35px;
-    margin-top: 40px;
 }
 .ms_deploy_designed_section_title p{
     font-size: 20px;
@@ -145,9 +147,6 @@ button.ms_signup {
 .ms_developers .container{
     background-color: #f3f5f9;
 }
-.ms_developer_title{
-    margin-top: 40px;
-}
 .ms_arrow {
     position: relative;
     height: 200px;
@@ -164,7 +163,7 @@ button.ms_signup {
 }
 .ms_screenshot_container p {
     color: #031c4e;
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 10px;
     font-weight: 600;
 }
@@ -173,9 +172,10 @@ button.ms_signup {
     font-size: 10px;
     margin-bottom: 30px;
 }
-/* BLUE */
+/* BLUE MAP */
 .ms_blue {
-    background-color: blue;
+    background-image: url("https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format");
+    background-color: #031b4e;
     color: white;
     font-size: 10px;
     line-height: 20px;
@@ -196,7 +196,7 @@ button.ms_signup {
     border: none;
 }
 /* DEVELOPMENT */
-.ms_development .container {
+.ms_development{
     background-color: #f3f5f9;
 }
 .ms_rockerbox_title{
@@ -207,6 +207,7 @@ button.ms_signup {
 }
 .ms_rockerbox {
     background-color: white;
+    margin-bottom: 50px;
 }
 .ms_rockerbox_logo {
     padding-top: 10px;
@@ -214,6 +215,7 @@ button.ms_signup {
 p.ms_rockerbox_text {
     color: #5c6a88;
     margin-bottom: 2px;
+    font-size: 16px;
 }
 p.ms_rockerbox_quote {
     font-size: 12px;
@@ -226,6 +228,63 @@ p.ms_rockerbox_role {
 .ms_rockerbox_read_story {
     margin-bottom: 20px;
 }
+/* START */
+.ms_start {
+    background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+}
+.ms_start_content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ms_start_content h3 {
+    color: white;
+    font-weight: 700;
+}
+.ms_start_content button {
+    color: #006aff;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* FOOTER */
+footer {
+    background-color: #010e28;
+}
+.ms_copyright {
+    font-size: 15px;
+}
+.ms_footer_logo {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.ms_credits {
+    padding-left: 0px;
+    color: #727e98;
+    margin-bottom: 2px;
+}
+.ms_made_in_social {
+    color:#5a6887;
+    padding-left: 0px;
+}
+.ms_made_in_social p{
+    padding-left: 0px;
+}
+.ms_social_logo i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.ms_link-list {
+    color: #64708d;
+}
+.ms_list li {
+    list-style-type: none;
+}
+.ms_list li:first-child{
+    color: white;
+    font-weight: 700;
+}
+
 @media all and (max-width: 767px) {
     .ms_arrow {
       display: none;
