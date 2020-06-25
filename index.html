@@ -14,19 +14,19 @@
             <nav class="navbar navbar-default">
                   <div class="container">
         <!-- MENU MOBILE -->
-                        <div class="navbar-header ms_mobile col-sm-12 col-xs-12">
-                            <div class="col-xs-8 col-sm-6 ms_logo_mobile">
-                                <a class="navbar-brand" href="#"><img class="col-xs-8 col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
-                            </div>
-                            <div class="col-xs-4 col-sm-offset-9 ms_hamburger">
-                                <span class="glyphicon glyphicon-menu-hamburger col-xs-offset-12 col-sm-offset-7 " aria-hidden="true"></span>
-                            </div>
+                    <div class="navbar-header ms_mobile col-sm-12 col-xs-12 .hidden-md .hidden-lg">
+                        <div class="col-xs-8 col-sm-6 ms_logo_mobile">
+                            <a class="navbar-brand" href="#"><img class="col-xs-8 col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
                         </div>
-        <!-- DESKTOP -->
-                    <div class="ms_logo_desktop col-md-offset-1 col-md-3">
-                        <a class="navbar-brand" href="#"><img class="col-md-7"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                        <div class="col-xs-4 col-sm-offset-9 ms_hamburger">
+                            <span class="glyphicon glyphicon-menu-hamburger col-xs-offset-12 col-sm-offset-7 " aria-hidden="true"></span>
+                        </div>
                     </div>
-                    <div class="ms_nav_left_menu_container col-md-4">
+        <!-- DESKTOP -->
+                    <div class="ms_logo_desktop col-md-3">
+                        <a class="navbar-brand" href="#"><img class="col-md-8"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                    </div>
+                    <div class="ms_nav_left_menu_container hidden-xs hidden-sm col-md-5">
                         <ul class="ms_nav_left_menu">
                             <li class="nav_menu_link"><a href="#">Products <span class="caret"></span></a></li>
                             <li class="nav_menu_link"><a href="#">Customers</a></li>
@@ -34,7 +34,7 @@
                             <li class="nav_menu_link"><a href="#">Pricing</a></li>
                         </ul>
                     </div>
-                    <div class="ms_nav_right_menu col-md-4">
+                    <div class="ms_nav_right_menu_container hidden-xs hidden-sm col-md-4">
                         <ul class="ms_nav_right_menu col-md-offset-2">
                             <li class="nav_menu_link"><a href="#">Docs</a></li>
                             <li class="nav_menu_link"><a href="#">Support <span class="caret"></span></a></li>
@@ -47,13 +47,13 @@
         </header>
         <!-- BANNER -->
         <section class="ms_banner">
-            <div class="container col-sm-12">
-                <div class="ms_jumbotron col-sm-offset-0 col-sm-7 col-md-5 col-md-offset-2">
-                    <h1>The simplest cloud platform for developers & teams</h1>
+            <div class="container">
+                <div class="ms_jumbotron col-sm-7 col-md-7">
+                    <h1 class="">The simplest cloud platform for developers & teams</h1>
                     <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and buisnesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
-                <div class="ms_login col-sm-5">
-                    <div class="ms_login_box col-xs-12 col-sm-12 col-md-8 col-md-offset-1">
+                <div class="ms_login col-sm-5 col-md-5">
+                    <div class="ms_login_box col-xs-12 col-sm-12 col-md-12">
                         <h3 class="text-center ms_black_title">Deploy your app in seconds.</h3>
                         <h3 class="text-center ms_blue_title">Get started now.</h3>
                         <input class="ms_email_form col-xs-12 col-sm-12" type="email" name="email" placeholder="Email">
@@ -66,10 +66,10 @@
             </div>
         </section>
         <!-- CLIENTS -->
-        <section class="ms_clients col-sm-12">
+        <section class="ms_clients col-sm-11 col-md-12">
             <div class="container">
                 <h4 class="col-sm-12 col-md-12 text-center text-uppercase ms_clients_title">innovative businesses trust digitalocean</h4>
-                <div class="row col-sm-12 col-md-10 col-md-offset-1">
+                <div class="col-sm-12 col-md-12">
                     <div class="col-xs-6 col-sm-2 col-md-2  ms_client_logo">
                         <img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="docker">
                     </div>
@@ -179,7 +179,7 @@
                     <h3 class="text-center">The features your business needs.</h3>
                   </div>
                 </div>
-                <div class="row col-sm-10 col-sm-offset-1 col-md-10">
+                <div class="col-sm-12 col-md-12">
                   <div class="ms_feature col-sm-4 col-md-4">
                     <img src="https://images.prismic.io/www-static/4083b409-5e65-4403-86a8-7ed8f501a0d8_icon-task-list-multiple.svg?auto=compress,format" alt="icon_task">
                     <h4>Predictable pricing</h4>
@@ -208,7 +208,7 @@
                   <div class="ms_deploy_designed_section_title">
                     <h3 class="text-center">Service your customers around the world from 12 regions.</h3>
                   </div>
-                <div class="row ms_city_row col-sm-12 col-md-5 col-md-offset-1">
+                <div class="row ms_city_row col-sm-12 col-md-6">
                     <div class="col-sm-12 ms_city ms_asm1">
                         <div class="row">
                             <span class="col-xs-1 col-sm-1 col-md-1 ms_city_prefix text-uppercase">ams1</span>
@@ -252,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ms_city_row col-sm-12 col-md-5">
+                <div class="row ms_city_row col-sm-12 col-md-6">
                     <div class="col-sm-12 col-md-offset-1 ms_city ms_fra1">
                         <div class="row">
                             <span class="col-xs-1 col-sm-1 ms_city_prefix text-uppercase">fra1</span>

@@ -29,7 +29,7 @@
     list-style-type: none;
     display: inline-block;
     padding-right: 10px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
 }
 .nav_menu_link a {
@@ -53,16 +53,15 @@
     color: white;
 }
 /* BANNER */
-.ms_banner .container{
+.ms_banner{
     background-image: url("https://web.archive.org/web/20200205061938im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
     margin-top: 0;
 }
 .ms_jumbotron {
     background: none;
     color: white;
-    padding-left: 0;
+    padding-left: 0px;
     margin-top: 50px;
-    margin-bottom: 50px;
     font-size: 20px;
 }
 .ms_jumbotron h1 {
@@ -72,7 +71,7 @@
 .ms_login_box {
     background-color: white;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;
 }
 .ms_login_box h3 {
@@ -266,6 +265,7 @@ p.ms_rockerbox_role {
 /* START */
 .ms_start {
     background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+    background-size: cover;
 }
 .ms_start_content {
     margin-top: 50px;
@@ -387,22 +387,30 @@ footer {
 }
 @media all and (min-width: 992px) {
     .navbar-default {
-        height: 50px;
+        height: 60px;
         line-height: 50px;
         vertical-align: middle;
+        margin-bottom: 0px;
+    }
+    .navbar-default .container {
+        height: 50px;
     }
     .navbar-brand {
         height: 50px;
     }
+    .ms_login_box {
+        padding-top: 40px;
+        margin-bottom: 80px;
+    }
     .ms_blue_title {
         margin-top: 5px;
-        margin-bottom: 0px;
     }
     .ms_jumbotron h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .ms_jumbotron p {
-        font-size: 20px;
+        font-size: 22px;
+        margin-bottom: 40px;
     }
     .ms_clients_title {
         font-size: 15px;
@@ -410,20 +418,40 @@ footer {
     .ms_client_logo {
         margin-top: 10px;
     }
+    .ms_customer_stories {
+        margin-bottom: 20px;
+    }
     .ms_item_list {
         font-size: 15px;
         padding-left: 5px;
     }
+    .ms_scroll_dots {
+        margin-bottom: 40px;
+    }
     .ms_feature {
         font-size: 12px;
     }
+    .ms_city {
+        font-size: 13px;
+    }
+    .ms_city_row {
+        margin-bottom: 60px;
+    }
+    .ms_deploy_designed_section_title {
+        margin-top: 60px;
+    }
     .ms_deploy_designed_section_title h3 {
-        font-size: 26px;
+        font-size: 40px;
+        margin-bottom: 20px;
     }
     .ms_deploy_designed_section_title p {
-        font-size: 18px;
+        font-size: 20px;
+        margin-bottom: 40px;
     }
     .ms_list {
         margin-top: 30px;
     }
+}
+@media all (min-width:1200px) {
+
 }
