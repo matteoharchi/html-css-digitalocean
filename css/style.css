@@ -348,6 +348,9 @@ footer {
         vertical-align: middle;
     }
     /* BANNER */
+    .ms_login {
+        padding-left: 0px;
+    }
     .ms_login_box {
         margin-top: 10px;
     }
@@ -367,7 +370,6 @@ footer {
       margin-bottom: 40px;
     }
     /* BLUE MAP */
-
     .ms_blue {
         font-size: 10px;
     }
@@ -376,6 +378,10 @@ footer {
     }
     .ms_city_prefix {
         padding-left: 0px;
+    }
+    /* DEVELOPMENT TEAMS */
+    .carousel-control {
+        display: none;
     }
     /* FOOTER */
     ul.ms_list {
