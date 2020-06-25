@@ -54,7 +54,6 @@
 /* BANNER */
 .ms_banner{
     background-image: url("https://web.archive.org/web/20200205061938im_/https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
-    margin-top: 0;
 }
 .ms_jumbotron {
     background: none;
@@ -107,11 +106,6 @@
     left: 0%;
     transform: translateY(-50%);
 }
-.fa-google {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: bottom;
-}
 .ms_little_text {
     font-size: 12px;
     margin-top: 10px;
@@ -120,7 +114,6 @@
 /* CLIENTS */
 .ms_clients {
     background-color: #f3f5f9;
-
 }
 .ms_client_logo {
     height: 100px;
@@ -347,15 +340,18 @@ footer {
     font-weight: 700;
     font-size: 18px;
 }
-
+/* MEDIA QUERY SMARTPHONE */
 @media all and (max-width: 767px) {
+    /* NAVBAR */
     .navbar-header {
         line-height: 70px;
         vertical-align: middle;
     }
-    .ms_arrow {
-      display: none;
+    /* BANNER */
+    .ms_login_box {
+        margin-top: 10px;
     }
+    /* DEPLOY */
     .ms_item_list{
       font-size: 10px;
       border-left:none;
@@ -365,13 +361,13 @@ footer {
     .ms_element {
       text-align: center;
     }
+    /* FEATURES */
     .ms_feature {
       text-align: center;
       margin-bottom: 40px;
     }
-    .ms_login_box {
-        margin-top: 10px;
-    }
+    /* BLUE MAP */
+
     .ms_blue {
         font-size: 10px;
     }
@@ -381,11 +377,14 @@ footer {
     .ms_city_prefix {
         padding-left: 0px;
     }
+    /* FOOTER */
     ul.ms_list {
         padding-left: 0px;
     }
 }
+/* MEDIA QUERY TABLET*/
 @media all and (max-width:991px) {
+    /* NAVBAR */
     .navbar-nav{
         display: none;
     }
@@ -409,11 +408,23 @@ footer {
         top: 20px;
         right: 15px;
     }
+    /* FOOTER */
     .ms_list {
         padding-left: 0px;
     }
 }
+/* MEDIA QUERY DESKTOP */
 @media all and (min-width: 992px) {
+    /* TITOLI SEZIONI */
+    .ms_deploy_designed_section_title h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .ms_deploy_designed_section_title p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    /* NAVBAR */
     .navbar-default {
         height: 60px;
         line-height: 50px;
@@ -426,6 +437,7 @@ footer {
     .navbar-brand {
         height: 50px;
     }
+    /* BANNER */
     .ms_login_box {
         padding-top: 40px;
         margin-bottom: 80px;
@@ -440,6 +452,7 @@ footer {
         font-size: 22px;
         margin-bottom: 40px;
     }
+    /* CLIENTS */
     .ms_clients_title {
         font-size: 15px;
     }
@@ -449,6 +462,7 @@ footer {
     .ms_customer_stories {
         margin-bottom: 20px;
     }
+    /* DEPLOY */
     .ms_item_list {
         font-size: 15px;
         padding-left: 5px;
@@ -456,22 +470,27 @@ footer {
     .ms_element p {
         font-size: 15px;
     }
+    /* DESIGNED FOR DEVELOPERS */
     .ms_scroll_dots {
         margin-bottom: 40px;
     }
+    /* FEATURES */
     .ms_feature {
         font-size: 15px;
     }
+    /* BLUE MAP */
     .ms_city {
         font-size: 13px;
     }
     .ms_city_row {
         margin-bottom: 60px;
     }
+    /* DEVELOPMENT TEAMS */
     .ms_rockerbox {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    /* GET STARTED */
     .ms_start_content h3{
         font-size: 40px;
     }
@@ -482,19 +501,10 @@ footer {
     .ms_deploy_designed_section_title {
         margin-top: 60px;
     }
-    .ms_deploy_designed_section_title h3 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-    .ms_deploy_designed_section_title p {
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
+
+    /* FOOTER */
     .ms_list {
         margin-top: 30px;
         font-size: 15px;
     }
-}
-@media all (min-width:1200px) {
-
 }
