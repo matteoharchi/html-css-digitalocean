@@ -9,6 +9,7 @@
 }
 .navbar-brand {
     height: 70px;
+    padding-left: 0px;
 }
 /* NAVBAR MOBILE */
 .glyphicon-menu-hamburger {
@@ -22,17 +23,34 @@
 .ms_logo_desktop {
     display: block;
     vertical-align: middle;
+    padding-left: 0px;
 }
-a.ms_nav_link{
-    vertical-align: middle;
-    height: 70px;
-    font-size: 15px;
-    color: black;
+.nav_menu_link {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
 }
-button.ms_signup {
+.nav_menu_link a {
+    color: #2d4069;
+}
+.nav_menu_link a:hover {
+    color: #006aff;
+    text-decoration: none;
+}
+.nav_menu_link button {
+    background-color: white;
+    padding: 0px 8px;
+    line-height: 25px;
+    font-weight: 500;
     color: #006aff;
     border: 1px solid #006aff;
-    background-color: white;
+    border-radius: 5px;
+}
+.nav_menu_link button:hover{
+    background-color: #0077ff;
+    color: white;
 }
 /* BANNER */
 .ms_banner .container{
@@ -144,7 +162,7 @@ button.ms_signup {
     font-size: 10px;
 }
 /* DESIGNED FOR DEVELOPERS */
-.ms_developers .container{
+.ms_developers{
     background-color: #f3f5f9;
 }
 .ms_arrow {
@@ -167,10 +185,23 @@ button.ms_signup {
     margin-top: 10px;
     font-weight: 600;
 }
+.ms_scroll_dots button {
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: none;
+    padding: 0px;
+    vertical-align: top;
+    border: 1px solid #006aff;
+    margin-bottom: 40px;
+}
+.ms_scroll_dots button:first-of-type {
+    background-color: #006aff;
+}
 /* FEATURES */
 .ms_feature {
     font-size: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .ms_feature p {
     color:#5c6a88;
@@ -193,6 +224,7 @@ button.ms_signup {
     padding: 0px;
 }
 .ms_city_row {
+    padding-right: 0px;
     margin-bottom: 30px;
 }
 .ms_city_row div:last-child {
@@ -326,7 +358,6 @@ footer {
     }
 }
 @media all and (max-width:991px) {
-
     .navbar-nav{
         display: none;
     }
@@ -350,13 +381,28 @@ footer {
         top: 20px;
         right: 15px;
     }
+    .ms_list {
+        padding-left: 0px;
+    }
 }
 @media all and (min-width: 992px) {
+    .navbar-default {
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+    }
+    .navbar-brand {
+        height: 50px;
+    }
+    .ms_blue_title {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
     .ms_jumbotron h1 {
         font-size: 50px;
     }
     .ms_jumbotron p {
-        font-size: 25px;
+        font-size: 20px;
     }
     .ms_clients_title {
         font-size: 15px;
@@ -364,8 +410,9 @@ footer {
     .ms_client_logo {
         margin-top: 10px;
     }
-    .ms_pages_menu ul li{
-        font-size: 20px;
+    .ms_item_list {
+        font-size: 15px;
+        padding-left: 5px;
     }
     .ms_feature {
         font-size: 12px;

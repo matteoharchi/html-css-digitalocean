@@ -12,47 +12,37 @@
         <!-- HEADER -->
         <header>
             <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <!-- MENU MOBILE -->
-                    <div class="navbar-header ms_mobile col-sm-12 col-xs-12">
-                        <div class="col-xs-8 col-sm-6 ms_logo_mobile">
-                            <a class="navbar-brand" href="#"><img class="col-xs-8 col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                  <div class="container">
+        <!-- MENU MOBILE -->
+                        <div class="navbar-header ms_mobile col-sm-12 col-xs-12">
+                            <div class="col-xs-8 col-sm-6 ms_logo_mobile">
+                                <a class="navbar-brand" href="#"><img class="col-xs-8 col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+                            </div>
+                            <div class="col-xs-4 col-sm-offset-9 ms_hamburger">
+                                <span class="glyphicon glyphicon-menu-hamburger col-xs-offset-12 col-sm-offset-7 " aria-hidden="true"></span>
+                            </div>
                         </div>
-                        <div class="col-xs-4 col-sm-offset-9 ms_hamburger">
-                            <span class="glyphicon glyphicon-menu-hamburger col-xs-offset-12 col-sm-offset-7 " aria-hidden="true"></span>
-                        </div>
+        <!-- DESKTOP -->
+                    <div class="ms_logo_desktop col-md-offset-1 col-md-3">
+                        <a class="navbar-brand" href="#"><img class="col-md-7"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
                     </div>
-                    <!-- DESKTOP -->
-                    <div class="ms_logo_desktop">
-                        <a class="navbar-brand" href="#"><img class="col-sm-6"src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a class="ms_nav_link" href="#">Products</a></li>
-                            <li><a class="ms_nav_link" href="#">Customers</a></li>
-                            <li><a class="ms_nav_link" href="#">Community</a></li>
-                            <li><a class="ms_nav_link" href="#">Pricing</a></li>
+                    <div class="ms_nav_left_menu_container col-md-4">
+                        <ul class="ms_nav_left_menu">
+                            <li class="nav_menu_link"><a href="#">Products <span class="caret"></span></a></li>
+                            <li class="nav_menu_link"><a href="#">Customers</a></li>
+                            <li class="nav_menu_link"><a href="#">Community <span class="caret"></span></a></li>
+                            <li class="nav_menu_link"><a href="#">Pricing</a></li>
                         </ul>
-                      <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Docs</a></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Login</a></li>
-                        <li>Sign Up</li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
+                    </div>
+                    <div class="ms_nav_right_menu col-md-4">
+                        <ul class="ms_nav_right_menu col-md-offset-2">
+                            <li class="nav_menu_link"><a href="#">Docs</a></li>
+                            <li class="nav_menu_link"><a href="#">Support <span class="caret"></span></a></li>
+                            <li class="nav_menu_link"><a href="#">Login</a></li>
+                            <li class="nav_menu_link"><a href="#"><button type="button" name="signup">Sign Up</button></a></li>
+                        </ul>
+                    </div>
+                  </div>
             </nav>
         </header>
         <!-- BANNER -->
@@ -63,17 +53,15 @@
                     <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and buisnesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
                 <div class="ms_login col-sm-5">
-                    <div class="ms_login_box col-xs-12 col-sm-12 col-md-6 col-md-offset-1">
-                        <h3 class="text-center">Deploy your app in seconds.</h3>
+                    <div class="ms_login_box col-xs-12 col-sm-12 col-md-8 col-md-offset-1">
+                        <h3 class="text-center ms_black_title">Deploy your app in seconds.</h3>
                         <h3 class="text-center ms_blue_title">Get started now.</h3>
                         <input class="ms_email_form col-xs-12 col-sm-12" type="email" name="email" placeholder="Email">
                         <input class="ms_password-form col-xs-12 col-sm-12"type="password" name="text" placeholder="Password">
                         <button class="ms_create_account col-xs-12 col-sm-12"type="button" name="create_account">Create your account</button>
                         <button class="ms_google_account text-center col-xs-12 col-sm-12"type="button" name="create_account"><i class="fab fa-google col-sm-1"></i> Sign up with Google</button>
                         <p class=" ms_little_text text-center col-xs-12 col-sm-12">By signing up you agree to the <a href="#">Terms of Service</a>.</p>
-
                     </div>
-
                 </div>
             </div>
         </section>
@@ -101,11 +89,8 @@
                         <img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="splunk">
                     </div>
                     <p class="text-center ms_customer_stories"><a href="#">View customer stories ></a></p>
-
                 </div>
-
             </div>
-
         </section>
         <!-- DEPLOY -->
         <section class="ms_deploy">
@@ -114,7 +99,7 @@
                     <h3>Deploy and scale seamlessly</h3>
                     <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
                 </div>
-                <aside class="ms_pages_menu col-xs-12 col-sm-4 col-md-3">
+                <aside class="ms_pages_menu col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
                     <ul>
                         <li class="col-xs-2 col-sm-12 ms_item_list">Deploy</li>
                         <li class="col-xs-2 col-sm-12 ms_item_list">Manage</li>
@@ -122,9 +107,8 @@
                         <li class="col-xs-2 col-sm-12 ms_item_list">Scale</li>
                         <li class="col-xs-2 col-sm-12 ms_item_list">Monitor</li>
                     </ul>
-
                 </aside>
-                <div class="row ms_elements col-sm-9">
+                <div class="row ms_elements col-sm-8">
                     <div class="row">
                         <div class="ms_element col-sm-6">
                             <div class="ms_element_icon">
@@ -148,7 +132,6 @@
                             </div>
                             <h4>One-click apps</h4>
                             <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, docker; and more.</p>
-
                         </div>
                         <div class="ms_element col-sm-6">
                             <div class="ms_element_icon">
@@ -179,8 +162,13 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                     <p class="col-xs-12 col-sm-12 text-center">Create compute servers in 55 seconds or less.</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 ms_scroll_dots text-center ">
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                    </div>
                 </div>
-
             </div>
         </section>
         <!-- FEATURES -->
@@ -190,7 +178,6 @@
                   <div class="ms_deploy_designed_section_title">
                     <h3 class="text-center">The features your business needs.</h3>
                   </div>
-
                 </div>
                 <div class="row col-sm-10 col-sm-offset-1 col-md-10">
                   <div class="ms_feature col-sm-4 col-md-4">
@@ -211,11 +198,8 @@
                     <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
                     <a href="#">Support ></a>
                   </div>
-
                 </div>
-
             </div>
-
         </section>
         <!-- BLUE MAP-->
         <section class="ms_blue">
@@ -307,7 +291,7 @@
                     <div class="col-sm-12 col-md-offset-1 ms_city ms_nyc2">
                         <div class="row">
                             <span class="col-xs-1 col-sm-1 ms_city_prefix text-uppercase">nyc2</span>
-                            <span class="col-xs-6 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-offset-1 ms_city_name">New York, USA</span>
+                            <span class="col-xs-6 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1 ms_city_name">New York, USA</span>
                             <span class="col-xs-3 col-xs-offset-1 col-sm-2 col-sm-offset-3 col-md-3 ms_test_speed"> <a class="col-sm-offset-5" href="#">Test speed ></a> </span>
                         </div>
                     </div>
@@ -337,6 +321,11 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
+                <div class="ms_scroll_dots text-center col-xs-12 co-sm-12 col-md-12">
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                </div>
             </div>
         </section>
         <!-- START -->
@@ -346,9 +335,7 @@
                     <h3>Get started now.</h3>
                     <button class="text-center" type="button" name="create_account">Create your account</button>
                 </div>
-
             </div>
-
         </section>
         <!-- FOOTER -->
         <footer>
@@ -415,12 +402,8 @@
                             <li>Network Status</li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </div>
         </footer>
-
     </body>
 </html>
